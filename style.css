@@ -93,7 +93,10 @@ body{
     transform: rotate(5deg);
 }
 #deletar:active{
-    transform: scale(0.89);
-    
+    transform: scale(0.89);  
+}
+.check{
+    accent-color: var(--cor01);
+    margin: 5px;
 }
 

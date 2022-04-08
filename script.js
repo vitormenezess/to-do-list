@@ -10,7 +10,7 @@ const criarItem = () => {
   if (novoItem.value === "") {
     alert("informe uma tarefa");
   } else {
-    item.innerHTML = `<input type="checkbox" />
+    item.innerHTML = `<input class ="check" type="checkbox" />
   <div>${novoItem.value}</div>
   <input
     type="image"
